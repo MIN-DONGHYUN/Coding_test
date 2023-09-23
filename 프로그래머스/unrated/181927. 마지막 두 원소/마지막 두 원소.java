@@ -5,7 +5,7 @@ class Solution {
         int[] answer = {};
         int n = num_list.length;
         
-        num_list = Arrays.copyOf(num_list, n + 1);
+        num_list = Arrays.copyOf(num_list, n + 1); //   배열 추가하는것
         
         if(num_list[n-1]  <= num_list[n-2]  ){
             num_list[n] = num_list[n-1] * 2;
